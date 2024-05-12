@@ -1,0 +1,20 @@
+@import './common-styles/colors.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.App {
+  height: auto;
+}
+
+.main{
+  display: flex;
+    background-color: $cool-gray;
+    padding: 10px 15px;
+    height: 100%;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+
+.card-custom{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+}

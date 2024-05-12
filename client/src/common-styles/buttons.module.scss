@@ -1,0 +1,39 @@
+@import './colors.module.scss';
+
+.success {
+    color: white !important;
+    background-color: $success !important;
+}
+
+.warning {
+    color: white !important;
+    background-color: $warning !important;
+}
+
+.danger {
+    color: white !important;
+    background-color: $danger !important;
+}
+
+.primary {
+    color: white !important;
+    background-color: $primary_button !important;
+}
+
+.active{
+    color: white !important;
+    background-color: $cool-gray !important;
+}
+
+.secondary {
+    color: white !important;
+    background-color: $secondary_button !important;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}
+

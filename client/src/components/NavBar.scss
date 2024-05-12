@@ -1,0 +1,47 @@
+@import '../common-styles/colors.module.scss';
+
+
+.sidenavbar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-right: 1px solid #f2f2f2;
+    float: left;
+    height: 100vmin;
+    gap:10px;
+  }
+
+  .navbar-item a {
+    text-decoration: none;
+    color: $delft-blue;
+    text-transform: none !important;
+  }
+  .navbar-item:hover {
+    background-color: $cool-gray; /* Change background color on hover */
+    color: $sapphire; /* Change text color on hover */
+  }
+
+  .sidenavbar-title{
+    margin-top: 10px !important;
+    color: $oxford-blue;
+    padding: 20px;
+  }
+
+  .profileIcon{
+    height: 4em !important;
+    width: auto !important;
+    color: $sapphire;
+  }
+
+  .active{
+    height: 4em !important;
+    width: auto !important;
+  }
+
+  .navbar-item{
+      padding: 18px 18px 18px 35px;
+  }
+  
+  .list-unstyled{
+    width: 100% !important;
+  }

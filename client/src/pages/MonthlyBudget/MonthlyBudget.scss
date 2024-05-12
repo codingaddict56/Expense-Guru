@@ -1,0 +1,49 @@
+@import '../../common-styles/colors.module.scss';
+
+.budget{
+    color: #00325b;
+}
+.form {
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #00325b;
+  }
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .button{
+    background-color: $sapphire !important;
+  
+  }
+  
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flex-row{
+  display:flex;
+  justify-content: right;
+  align-items: right; 
+  gap:10px;
+  width:100%;
+}
+  
